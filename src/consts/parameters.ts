@@ -1,12 +1,13 @@
 /** Change these values to configure the application for your own use. **/
+import { EtherlinkTestnet } from '@thirdweb-dev/chains';
 
 // Your smart contract address (available on the thirdweb dashboard)
 // For existing collections: import your existing contracts on the dashboard: https://thirdweb.com/dashboard
-export const contractConst = "0x436492DBc2E30E56FaC8F2297BD1964833c0687d";
+export const contractConst = "0x05994Ea6350Db55CA7177ae6F7BCa395853c0501";
 
 // The name of the chain your contract is deployed to.
 // Refer to README.md on how to specify the chain name.
-export const chainConst = "mumbai";
+export const chainConst = EtherlinkTestnet;
 
 // It is IMPORTANT to provide your own API key to use the thirdweb SDK and infrastructure.
 // Please ensure that you define the correct domain for your API key from the API settings page.
